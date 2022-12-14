@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width: 1366px) and (min-width: 768px) {
+	.login-reg-main {
+		height: auto !important;
+	}
+}
+@media screen and (max-width: 1920px) and (min-width: 1080px) {
+	.login-reg-main {
+		height: auto !important;
+	}
+}
+@media only screen and (max-device-width: 480px) and (min-device-width: 320px){
+	.select2-container {
+		margin-top:0px !important;
+	}
+	.mtc-10 {
+		margin-top: 0px;
+	}
+}
+.reg-terms{
+	word-break: break-word;
+}
+.md-radio {
+	margin: 0px 0 0px 20px;
+	float: left;
+} 
+.md-radio label {
+	height: 4px;
+}
+.in-radio {
+    margin: 0px 0 0px 0px;
+    float: left;
+}
+.in-radio label {
+	height: 4px;
+	display: inline-block;
+    position: relative;
+    padding: 0 30px;
+    margin-bottom: 0;
+    cursor: pointer;
+    vertical-align: bottom;
+    color: #3b3b3b;
+    font-family: Poppins-regular;
+    font-size: 16px;
+    font-weight: normal;
+}
+.in-radio label:before {
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.54);
+}
+.in-radio label:before, .in-radio label:after {
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+    transition: all .3s ease;
+    transition-property: border-color, -webkit-transform;
+    transition-property: transform, border-color;
+    transition-property: transform, border-color, -webkit-transform;
+}
+.in-radio label:after {
+    top: 5px;
+    left: 5px;
+    width: 10px;
+    height: 10px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    border: 2px solid #e40955;
+}
+.in-radio label:after {
+    border: 2px solid #ff7e00 !important;
+}
+.in-radio input[type="radio"] {
+    display: none;
+}
+.in-radio input[type="radio"]:checked + label:after {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.in-radio input[type="radio"]:checked + label:before {
+    border-color: #e40955;
+    -webkit-animation: ripple 0.2s linear forwards;
+    animation: ripple 0.2s linear forwards;
+}
+.in-radio input[type="radio"]:checked + label:before {
+    border-color: #ff7e00 !important;
+}
+.cstm-logo{
+	padding: 0px 0px !important;
+	position: relative !important;
+	top: -6pxb !important;
+}
+.select2-container--default .select2-selection--single {
+	margin-bottom: 2px !important;
+	height: 44px !important;
+	border: 1px solid #e3e3e3;
+	-webkit-appearance: none;
+	color: #9d9d9d;
+	border-radius: 4px;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+	text-align: left !important;
+	padding: 5px 5px 5px 12px !important;
+}
+.select2-container--default .select2-selection--single {
+	border-radius: 4px !important;
+	height: 44px !important;
+	padding: 2px 0px !important;
+}
+.form-error {
+    color: red;
+    display: table;
+}
+.login-reg-main{
+	/*height:647px !important;*/
+}
